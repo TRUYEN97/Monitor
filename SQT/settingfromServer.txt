@@ -1,0 +1,30 @@
+{
+    "VERSION": "1.0.0 - beta",
+    "MAX_HANDLER": 4,
+    "SERVER_PORT": 6200,
+    "MBLT-720": ["830-009xx", "810-830"],
+    "MBLT-5032": ["830-009xx"],
+    "MBLT-5030": ["830-009xx"],
+    "ONOFF-5145": ["810-830"],
+    "ONOFF-5143": ["810-830"],
+    "810-830": [
+        "AmbitUI\\config\\dataSource\\Init\\limits.json",
+        "AmbitUI\\config\\dataSource\\Init\\ErrorCode.json",
+        "AmbitUI\\config\\Item\\runinoOnOffConfig.json",
+        "AmbitUI\\config\\Setting\\setting-runin.json",
+        "AmbitUI\\lib",
+        "AmbitUI\\python",
+        "AmbitUI\\Run.bat",
+        "AmbitUI\\UIEngine.jar"
+    ],
+    "810-009xx": [
+        "AmbitUI\\config\\dataSource\\Init\\limits.json",
+        "AmbitUI\\config\\dataSource\\Init\\ErrorCode.json",
+        "AmbitUI\\config\\Item\\mbltLoopTestOnOffConfig.json",
+        "AmbitUI\\config\\Setting\\setting-mblt.json",
+        "AmbitUI\\lib",
+        "AmbitUI\\python",
+        "AmbitUI\\Run.bat",
+        "AmbitUI\\UIEngine.jar"
+    ]
+}
